@@ -9,6 +9,6 @@ ENV JAVA_HOME=/jdk1.8.0_192
 ENV PATH=$JAVA_HOME/bin:$PATH
 ENV CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
-EXPOSE 8888
+EXPOSE 8888 8761
 
 ENTRYPOINT ["java","-jar","/app.jar"]
