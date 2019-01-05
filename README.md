@@ -1,5 +1,5 @@
 # bo cloud - 微服务云平台
 
-eureka: boooooo.cc:8761
+eureka: www.qingbo.co:18761
 
-config: boooooo.cc:8888
+config: www.qingbo.co:18888
